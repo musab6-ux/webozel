@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğum Günün Kutlu Olsun</title>
+    <style>
+        /* Genel stil ayarları */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2e1; /* Rahatlatıcı açık yeşil */
+            color: #333;
+        }
+
+        header {
+            background-color: #76c893; /* Yeşil başlık rengi */
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 2px solid #4caf50;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #4caf50;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Şiirler Bölümü */
+        .poem {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .poem h3 {
+            color: #4caf50;
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        /* Şiir metni stil */
+        .poem p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        /* Fotoğraflar */
+        .poem-photo {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Final Mesajı */
+        .final-message {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        /* Kutlama Animasyonu */
+        .fireworks {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 1000;
+            pointer-events: none;
+        }
+
+        @keyframes firework {
+            0% { transform: scale(0); opacity: 1; }
+            100% { transform: scale(2); opacity: 0; }
+        }
+
+        .firework {
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border-radius: 50%;
+            animation: firework 1.5s ease-in-out infinite;
+            margin: 5px;
+        }
+
+        .firework:nth-child(2) { animation-delay: 0.5s; background-color: yellow; }
+        .firework:nth-child(3) { animation-delay: 1s; background-color: blue; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doğum Günün Kutlu Olsun, Ablacım!</h1>
+        <p>İyi ki varsın, iyi ki benimlesin!</p>
+    </header>
+
+    <section class="poems">
+        <h2>Sen ve Seninle birlikte değerli olan anılar</h2>
+
+        <!-- Şiir 1 -->
+        <div class="poem">
+            <h3>Gözlerin Yıldızlardan Parlak</h3>
+            <p>
+                "Canım ablam, ışığın gibi, <br>
+                 Her anımız aydınlık bir peri, <br>
+                 Sen varsın, dünya güzel,<br>
+                 Gülüşün kalbime en tatlı hediye."<br>
+            </p>
+            <img src="images/foto1.jpg" alt="Her Gülüşün Bir Umut" class="poem-photo">
+        </div>
+
+        <!-- Şiir 2 -->
+        <div class="poem">
+            <h3>iyi ki sen varsın</h3>
+            <p>
+                "Hayat bir yol, sen yol gösteren, <br>
+                 Her zorlukta yanımda güç veren, <br>
+                 Sevgin, dünyama en güzel renk,<br>
+                 Ablam, gönlümde eşsiz bir denk." <br>
+            </p>
+            <img src="images/foto2.jpg" alt="Hayat Seninle Güzel" class="poem-photo">
+        </div>
+
+        <!-- Şiir 3 -->
+        <div class="poem">
+            <h3>iyi ki sen</h3>
+            <p>
+                "Ablam, sen bir yıldız gibi, <br>
+                 Gökyüzümde hep parlayan biri, <br>
+                 Sıcacık bir sarılma, bir bakışın, <br>
+                 Hayatta her şeyin en güzeli." <br>
+
+            </p>
+            <img src="images/foto3.jpg" alt="Gözlerin Yıldızlardan Parlak" class="poem-photo">
+        </div>
+
+        <!-- Şiir 4 -->
+        <div class="poem">
+            <h3>Seninle her şey daha güzel</h3>
+            <p>
+                "Bir tatlı sözünle geçer dertler, <br>
+                 Kalbimde sevgin hep derin izler,<br>
+                 Dünya koca bir yol olsa bile, <br>
+                 Seninle tüm yollar güllere döner." <br>
+            </p>
+            <img src="images/foto4.jpg" alt="Seninle Dolu Anılar" class="poem-photo">
+        </div>
+
+        <!-- Şiir 5 -->
+        <div class="poem">
+            <h3>İyi Ki Doğdun, Ablacığım</h3>
+            <p>
+                "Ablamsın sen, canın canımdan, <br>
+                 Kalbim yürekle çarpar adından, <br>
+                 Bir ömür boyu minnetle bakarım, <br>
+                 Senin gibi bir hazine var yanımda.<br>
+            </p>
+            <img src="images/foto5.jpg" alt="İyi Ki Doğdun" class="poem-photo">
+        </div>
+
+        <!-- Final Mesaj -->
+        <div class="final-message">
+            <p>Sen benim hayatımın en özel insanısın, ablacığım. İyi ki varsın, iyi ki benim Ablamsın. Seni seviyorum! 🎉</p>
+        </div>
+    </section>
+
+    <!-- Havai Fişek Animasyonu -->
+    <div class="fireworks">
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="firework"></div>
+    </div>
+
+    <footer>
+        <p>2025 &copy; Ablama Özel Tasarım</p>
+    </footer>
+</body>
+</html>
